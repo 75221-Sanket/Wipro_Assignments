@@ -1,0 +1,102 @@
+1) FUNCTION sumOfDigits(456)
+    sum = 0
+
+    WHILE number > 0 DO
+        digit = number MOD 10
+        sum = sum + digit
+        number = number DIV 10
+    END WHILE
+
+    RETURN sum
+END FUNCTION
+
+
+number = INPUT("Enter a number: ")
+result = sumOfDigits(number)
+PRINT "The sum of the digits is:", result
+   
+ 
+
+Algorithm
+
+1. Declare the variable called Shape and the shape from user
+
+2. Check if shape is Rectangle
+
+Declare length and width and get the value from the user declare Area and store the area of the rectangle.
+
+Print Area
+
+3. Check if shape is "Square"
+
+Declare variable called Side and get it from the user Declare variablle called Area and stored the area of the square print Area
+
+4. Check if shape is "Circle" Declare variable called radius and get value from user Declare variablle called Area and stored the area of the Circle print Area
+
+
+Pseudocode
+
+1.start
+
+2. Declare string shape; 
+
+3. if shape == "Rectangle"
+
+   Declare int length, Width;
+   Declare int Area length Width
+
+   Print Area
+
+4. if shape == "Square" Declare int Side
+ 
+    Declare int Area Side*Side
+
+   Print Area
+
+5.if shape "Circle"
+
+   Declare int radius
+
+   print radius
+
+3)
+Algorithm
+
+
+1.Declare variables Mark1, Mark2, Mark3, Mark4, Mark5 and the values of earch marks
+
+2.Declare Average to store the average of 5 marks.
+
+3.Add all the marks and divide it by 5 to get the average
+
+4 . if average is 65 to 75 print good 5.or average is 45 to 65 print pass
+
+5 or average is below 45 print fail
+
+
+
+Pseudocode
+
+sum = 0
+
+1) FOR i = 1 TO 5 DO
+    PRINT "Enter mark", i, ": "
+    INPUT mark
+    sum = sum + mark
+END FOR
+
+2) average = sum / 5
+
+
+3) ELSE IF average >= 60 AND average < 75 THEN
+    PRINT "Good"
+4) ELSE IF average >= 45 AND average < 60 THEN
+    PRINT "Pass"
+5) ELSE
+    PRINT "Fail"
+6) END IF
+
+
+
+
+
